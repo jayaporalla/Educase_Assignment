@@ -16,7 +16,7 @@ function Account() {
 
     const fetchProfile = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/profile", {
+        const response = await fetch("https://educase-assignment-ywqz.onrender.com/api/profile", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
